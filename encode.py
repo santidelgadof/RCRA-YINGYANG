@@ -1,5 +1,5 @@
 # encode.py
-# Transforma domXX.txt en domXX.lp con hechos para Clingo
+# Transforma domXX.txt en domXX.lp
 
 import sys
 
