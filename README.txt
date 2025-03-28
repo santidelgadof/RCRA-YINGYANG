@@ -1,5 +1,5 @@
 Santiago Delgado Ferreiro
-Iker Calvo Gomez
+Iker Calvo Gómez
 
 # Utilización 
 # Decodificar el txt
