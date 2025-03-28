@@ -1,7 +1,4 @@
-% encode.py examples/domXX.txt examples/domXX.lp
-% decode.py yinyangKB.lp examples/domXX.lp solXX.txt
-
-% Cada celda un solor (blanco o negro)
+% Cada celda un solo color (blanco o negro)
 { color(Y,X,black); color(Y,X,white) } = 1 :- cell(Y,X), not init(Y,X,_).
 
 % Celdas iniciales fijas (de los ejemplos)
