@@ -3,16 +3,11 @@
 
 import sys
 
-if len(sys.argv) < 2:
-    print("Uso: python3 encode.py domXX.txt")
-    sys.exit()
-
 input_file = sys.argv[1]
 output_file = input_file.replace(".txt", ".lp")
 
 with open(input_file) as f:
     lines = [line.strip() for line in f if line.strip()]
-
 n = len(lines)
 
 with open(output_file, "w") as f:
